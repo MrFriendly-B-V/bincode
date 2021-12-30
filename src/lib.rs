@@ -2,6 +2,8 @@
 #![warn(missing_docs, unused_lifetimes)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
+#![feature(extended_key_value_attributes)]
+
 //! Bincode is a crate for encoding and decoding using a tiny binary
 //! serialization strategy.  Using it, you can easily go from having
 //! an object in memory, quickly serialize it to bytes, and then
